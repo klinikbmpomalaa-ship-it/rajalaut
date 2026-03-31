@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raja Laut – Seafood Restaurant</title>
+  <meta name="description" content="Raja Laut Seafood Restaurant – Hidangan laut terbaik di Makassar dengan cita rasa otentik. Segar, lezat, dan terjangkau." />
+  <link rel="icon" href="images/logo.png" type="image/png" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@700;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ========== PRELOADER ========== -->
+<div id="preloader">
+  <div class="wave-loader">
+    <div class="fish-icon"><img src="images/logo.png" alt="Raja Laut"></div>
+    <div class="loader-waves">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <p>Raja Laut Seafood Restaurant</p>
+  </div>
+</div>
+
+<!-- ========== NAVBAR ========== -->
+<header id="navbar" role="banner">
+  <nav class="nav-container" aria-label="Navigasi Utama">
+    <a href="#hero" class="nav-logo" aria-label="Raja Laut Home">
+      <img src="images/logo.png" alt="Logo Raja Laut" />
+      <span>Raja Laut</span>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-menu" id="nav-menu" role="menubar">
+      <li role="none"><a href="#hero"     role="menuitem" class="nav-link active">Beranda</a></li>
+      <li role="none"><a href="#tentang"  role="menuitem" class="nav-link">Tentang Kami</a></li>
+      <li role="none"><a href="#menu"     role="menuitem" class="nav-link">Menu</a></li>
+      <li role="none"><a href="#promo"    role="menuitem" class="nav-link">Promo</a></li>
+      <li role="none"><a href="#karyawan" role="menuitem" class="nav-link">Tim Kami</a></li>
+      <li role="none"><a href="#galeri"   role="menuitem" class="nav-link">Galeri</a></li>
+      <li role="none"><a href="#ulasan"   role="menuitem" class="nav-link">Ulasan</a></li>
+      <li role="none"><a href="#kontak"   role="menuitem" class="nav-link">Kontak</a></li>
+      <li role="none"><a href="#reservasi" role="menuitem" class="nav-link btn-reservasi">Reservasi</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ========== HERO ========== -->
+<section id="hero" aria-labelledby="hero-title">
+  <div class="hero-ocean">
+    <div class="ocean-bg"></div>
+    <div class="bubbles" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="waves-hero" aria-hidden="true">
+      <svg class="wave wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none"><path fill="rgba(0,80,160,0.4)" d="M0,60 C360,120 1080,0 1440,60 L1440,120 L0,120Z"/></svg>
+      <svg class="wave wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none"><path fill="rgba(0,120,200,0.3)" d="M0,80 C480,20 960,100 1440,40 L1440,120 L0,120Z"/></svg>
+    </div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge"><i class="fas fa-anchor"></i> Seafood Terbaik di Makassar</div>
+    <h1 id="hero-title">
+      <span class="hero-sub">Selamat Datang di</span>
+      <span class="hero-brand">Raja Laut</span>
+      <span class="hero-tagline">Seafood Restaurant</span>
+    </h1>
+    <p class="hero-desc">Nikmati hidangan laut segar pilihan langsung dari nelayan lokal, dimasak dengan cita rasa otentik khas Makassar yang kaya rempah.</p>
+    <div class="hero-cta">
+      <a href="#menu" class="btn btn-primary"><i class="fas fa-utensils"></i> Lihat Menu</a>
+      <a href="#reservasi" class="btn btn-outline"><i class="fas fa-calendar-check"></i> Reservasi Meja</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num" data-target="500">0</span><span>+</span><small>Menu Pilihan</small></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num" data-target="12">0</span><span>+</span><small>Tahun Berpengalaman</small></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num" data-target="10000">0</span><span>+</span><small>Pelanggan Puas</small></div>
+    </div>
+  </div>
+  <a href="#tentang" class="scroll-down" aria-label="Scroll ke bawah">
+    <span></span><span></span><span></span>
+  </a>
+</section>
+
+<!-- ========== TENTANG KAMI ========== -->
+<section id="tentang" aria-labelledby="tentang-title">
+  <div class="container">
+    <div class="tentang-grid">
+      <div class="tentang-visual" data-aos="fade-right">
+        <div class="tentang-img-wrapper">
+          <div class="tentang-badge"><i class="fas fa-crown"></i><span>Est. 2012</span></div>
+          <img src="images/logo.png" alt="Raja Laut Restaurant" class="tentang-logo-big" />
+          <div class="tentang-wave-deco" aria-hidden="true"></div>
+        </div>
+        <div class="tentang-facts">
+          <div class="fact-card"><i class="fas fa-fish"></i><strong>Segar Setiap Hari</strong><p>Pasokan langsung dari nelayan lokal pagi hari</p></div>
+          <div class="fact-card"><i class="fas fa-leaf"></i><strong>Bahan Alami</strong><p>Rempah pilihan tanpa MSG berlebihan</p></div>
+        </div>
+      </div>
+      <div class="tentang-text" data-aos="fade-left">
+        <div class="section-label"><span>⚓ Tentang Kami</span></div>
+        <h2 id="tentang-title">Warisan Cita Rasa <em>Laut Sulawesi</em></h2>
+        <p>Raja Laut Seafood Restaurant hadir sejak tahun 2012 dengan misi sederhana namun kuat: menghadirkan kesegaran laut Sulawesi di atas piring Anda. Kami percaya bahwa seafood terbaik dimulai dari bahan baku terbaik.</p>
+        <p>Setiap hari, tim kami berkoordinasi langsung dengan para nelayan lokal di TPI Paotere untuk mendapatkan ikan, udang, cumi, kepiting, dan lobster paling segar. Dipadu dengan resep turun-temurun keluarga dan sentuhan modern, setiap hidangan adalah sebuah perjalanan rasa yang tak terlupakan.</p>
+        <ul class="tentang-keunggulan">
+          <li><i class="fas fa-check-circle"></i> Bahan baku segar langsung dari nelayan lokal</li>
+          <li><i class="fas fa-check-circle"></i> Lebih dari 50+ pilihan olahan seafood</li>
+          <li><i class="fas fa-check-circle"></i> Kapasitas tempat duduk hingga 200 orang</li>
+          <li><i class="fas fa-check-circle"></i> Area parkir luas dan aman</li>
+          <li><i class="fas fa-check-circle"></i> Tersedia ruang privat untuk acara</li>
+          <li><i class="fas fa-check-circle"></i> Layanan catering dan pesan antar</li>
+        </ul>
+        <a href="#menu" class="btn btn-primary"><i class="fas fa-utensils"></i> Jelajahi Menu Kami</a>
+      </div>
+    </div>
+  </div>
+  <div class="section-wave-bottom" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path fill="#0a1628" d="M0,30 C480,60 960,0 1440,30 L1440,60 L0,60Z"/></svg></div>
+</section>
+
+<!-- ========== MENU ========== -->
+<section id="menu" aria-labelledby="menu-title">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label"><span>🍽️ Menu Kami</span></div>
+      <h2 id="menu-title">Pilihan <em>Hidangan Laut</em> Terbaik</h2>
+      <p>Semua menu dibuat segar setiap hari dengan bahan pilihan terbaik</p>
+    </div>
+
+    <!-- Menu Category Tabs -->
+    <div class="menu-tabs" role="tablist" aria-label="Kategori Menu">
+      <button class="menu-tab active" data-cat="semua"  role="tab" aria-selected="true">Semua</button>
+      <button class="menu-tab" data-cat="ikan"    role="tab" aria-selected="false"><i class="fas fa-fish"></i> Ikan</button>
+      <button class="menu-tab" data-cat="udang"   role="tab" aria-selected="false">🦐 Udang</button>
+      <button class="menu-tab" data-cat="cumi"    role="tab" aria-selected="false">🦑 Cumi</button>
+      <button class="menu-tab" data-cat="kepiting" role="tab" aria-selected="false">🦀 Kepiting</button>
+      <button class="menu-tab" data-cat="lobster" role="tab" aria-selected="false">🦞 Lobster</button>
+      <button class="menu-tab" data-cat="minuman" role="tab" aria-selected="false"><i class="fas fa-glass-water"></i> Minuman</button>
+    </div>
+
+    <!-- Menu Grid -->
+    <div class="menu-grid" id="menuGrid" role="tabpanel">
+
+      <!-- IKAN -->
+      <article class="menu-card" data-cat="ikan" id="menu-ikan-bakar">
+        <div class="menu-card-img"><span class="menu-emoji">🐟</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Ikan</div>
+          <h3>Ikan Bakar Khas Makassar</h3>
+          <p>Ikan segar pilihan dibakar dengan bumbu khas Makassar, disajikan dengan sambal dan lalapan segar.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 65.000</span>
+            <span class="menu-badge hot"><i class="fas fa-fire"></i> Best Seller</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-card" data-cat="ikan" id="menu-ikan-goreng">
+        <div class="menu-card-img"><span class="menu-emoji">🍳</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Ikan</div>
+          <h3>Ikan Goreng Kuning</h3>
+          <p>Ikan segar digoreng dengan bumbu kuning rempah tradisional, garing di luar lembut di dalam.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 55.000</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-card" data-cat="ikan" id="menu-ikan-sup">
+        <div class="menu-card-img"><span class="menu-emoji">🍲</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Ikan</div>
+          <h3>Sup Ikan Konro</h3>
+          <p>Sup ikan gurih dengan kuah bening kaya rempah, paduan sempurna ikan segar dan sayuran.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 60.000</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-card" data-cat="ikan" id="menu-kakap-saus">
+        <div class="menu-card-img"><span class="menu-emoji">🎏</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Ikan</div>
+          <h3>Kakap Merah Saus Tiram</h3>
+          <p>Kakap merah segar dimasak dengan saus tiram kental, dilengkapi dengan paprika dan bawang bombay.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 85.000</span>
+            <span class="menu-badge new">Baru</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- UDANG -->
+      <article class="menu-card" data-cat="udang" id="menu-udang-bakar">
+        <div class="menu-card-img"><span class="menu-emoji">🍢</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Udang</div>
+          <h3>Udang Bakar Madu</h3>
+          <p>Udang jumbo segar dibakar dengan olesan madu dan saus special, rasa manis gurih yang menggugah.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 90.000</span>
+            <span class="menu-badge hot"><i class="fas fa-fire"></i> Best Seller</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-card" data-cat="udang" id="menu-udang-goreng">
+        <div class="menu-card-img"><span class="menu-emoji">🦐</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Udang</div>
+          <h3>Udang Goreng Tepung</h3>
+          <p>Udang segar dibalut tepung crispy, digoreng sempurna disajikan dengan saus cocolan pedas.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 75.000</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-card" data-cat="udang" id="menu-udang-saus">
+        <div class="menu-card-img"><span class="menu-emoji">🌶️</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Udang</div>
+          <h3>Udang Saus Padang</h3>
+          <p>Udang besar dimasak dengan saus padang yang pedas dan kaya rasa, cocok untuk pecinta pedas.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 85.000</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- CUMI -->
+      <article class="menu-card" data-cat="cumi" id="menu-cumi-bakar">
+        <div class="menu-card-img"><span class="menu-emoji">🦑</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Cumi</div>
+          <h3>Cumi Bakar Isi Telur</h3>
+          <p>Cumi segar diisi dengan adonan telur berbumbu, dibakar dengan saus kecap pedas manis.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 70.000</span>
+            <span class="menu-badge hot"><i class="fas fa-fire"></i> Favorit</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-card" data-cat="cumi" id="menu-cumi-hitam">
+        <div class="menu-card-img"><span class="menu-emoji">🖤</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Cumi</div>
+          <h3>Cumi Hitam Pedas</h3>
+          <p>Cumi dimasak dengan tintanya sendiri menghasilkan kuah hitam pekat yang gurih dan nendang.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 65.000</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- KEPITING -->
+      <article class="menu-card" data-cat="kepiting" id="menu-kepiting-soka">
+        <div class="menu-card-img"><span class="menu-emoji">🦀</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Kepiting</div>
+          <h3>Kepiting Soka Goreng</h3>
+          <p>Kepiting soka digoreng crispy dengan bumbu salt and pepper, renyah nikmat di setiap gigitan.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 120.000</span>
+            <span class="menu-badge premium">Premium</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-card" data-cat="kepiting" id="menu-kepiting-saus">
+        <div class="menu-card-img"><span class="menu-emoji">🌊</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Kepiting</div>
+          <h3>Kepiting Saus Raja Laut</h3>
+          <p>Kepiting besar dimasak dengan saus spesial ala Raja Laut, perpaduan pedas, manis, dan gurih.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 150.000</span>
+            <span class="menu-badge hot"><i class="fas fa-fire"></i> Signature</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- LOBSTER -->
+      <article class="menu-card" data-cat="lobster" id="menu-lobster-bakar">
+        <div class="menu-card-img"><span class="menu-emoji">🦞</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Lobster</div>
+          <h3>Lobster Bakar Mentega</h3>
+          <p>Lobster premium dibakar dengan mentega herb, disajikan dengan saus lemon butter yang segar.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 250.000</span>
+            <span class="menu-badge premium">Premium</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-card" data-cat="lobster" id="menu-lobster-thermidor">
+        <div class="menu-card-img"><span class="menu-emoji">👑</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Lobster</div>
+          <h3>Lobster Thermidor</h3>
+          <p>Lobster mewah dengan saus krim keju panggang, hidangan istimewa untuk momen spesial.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 320.000</span>
+            <span class="menu-badge premium">Spesial</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- MINUMAN -->
+      <article class="menu-card" data-cat="minuman" id="menu-es-kelapa">
+        <div class="menu-card-img"><span class="menu-emoji">🥥</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Minuman</div>
+          <h3>Es Kelapa Muda</h3>
+          <p>Kelapa muda segar langsung dari buahnya, manis alami menyegarkan di terik hari.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 20.000</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-card" data-cat="minuman" id="menu-jus-mangga">
+        <div class="menu-card-img"><span class="menu-emoji">🥭</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Minuman</div>
+          <h3>Jus Mangga Harum Manis</h3>
+          <p>Jus mangga harum manis asli Sulawesi, manis segar tanpa tambahan gula berlebih.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 18.000</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-card" data-cat="minuman" id="menu-es-lemon">
+        <div class="menu-card-img"><span class="menu-emoji">🍋</span></div>
+        <div class="menu-card-body">
+          <div class="menu-tag">Minuman</div>
+          <h3>Es Lemon Tea</h3>
+          <p>Perpaduan teh dingin dan perasan lemon segar, cocok menemani makan siang yang spesial.</p>
+          <div class="menu-footer">
+            <span class="menu-price">Rp 15.000</span>
+          </div>
+        </div>
+      </article>
+
+    </div><!-- /.menu-grid -->
+    <div class="menu-note"><i class="fas fa-info-circle"></i> Harga belum termasuk PPN 10%. Semua menu dapat disesuaikan tingkat kepedasan.</div>
+  </div>
+  <div class="section-wave-bottom" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path fill="#0d2137" d="M0,20 C360,60 1080,0 1440,40 L1440,60 L0,60Z"/></svg></div>
+</section>
+
+<!-- ========== PROMO ========== -->
+<section id="promo" aria-labelledby="promo-title">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label"><span>🎉 Promo Spesial</span></div>
+      <h2 id="promo-title">Penawaran <em>Terbaik</em> Untuk Anda</h2>
+    </div>
+    <div class="promo-grid">
+      <div class="promo-card promo-featured">
+        <div class="promo-badge">HOT DEAL</div>
+        <div class="promo-icon">🦞</div>
+        <h3>Paket Lobster Royale</h3>
+        <p>1 Lobster Bakar + 1 Porsi Nasi + 2 Es Kelapa Muda</p>
+        <div class="promo-price">
+          <span class="price-old">Rp 320.000</span>
+          <span class="price-new">Rp 249.000</span>
+        </div>
+        <a href="#reservasi" class="btn btn-primary">Pesan Sekarang</a>
+      </div>
+      <div class="promo-card">
+        <div class="promo-badge">WEEKEND</div>
+        <div class="promo-icon">🦀</div>
+        <h3>Kepiting All You Can Eat</h3>
+        <p>Sabtu – Minggu, 12.00–15.00. Makan sepuasnya pilihan kepiting.</p>
+        <div class="promo-price">
+          <span class="price-new">Rp 185.000/orang</span>
+        </div>
+        <a href="#reservasi" class="btn btn-outline">Reservasi</a>
+      </div>
+      <div class="promo-card">
+        <div class="promo-badge">ULANG TAHUN</div>
+        <div class="promo-icon">🎂</div>
+        <h3>Free Dessert Ultah</h3>
+        <p>Tunjukkan KTP hari ulang tahun Anda, dapatkan dessert gratis!</p>
+        <div class="promo-price">
+          <span class="price-new">Gratis!</span>
+        </div>
+        <a href="#kontak" class="btn btn-outline">Info Lebih Lanjut</a>
+      </div>
+      <div class="promo-card">
+        <div class="promo-badge">GRUP</div>
+        <div class="promo-icon">👥</div>
+        <h3>Diskon Grup 15%</h3>
+        <p>Reservasi untuk 10 orang atau lebih, dapatkan diskon 15% untuk total tagihan.</p>
+        <div class="promo-price">
+          <span class="price-new">Diskon 15%</span>
+        </div>
+        <a href="#reservasi" class="btn btn-outline">Hubungi Kami</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== KARYAWAN ========== -->
+<section id="karyawan" aria-labelledby="karyawan-title">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label"><span>👨‍🍳 Tim Kami</span></div>
+      <h2 id="karyawan-title">Orang-Orang <em>Hebat</em> di Balik Dapur</h2>
+      <p>Tim profesional kami berdedikasi menghadirkan pengalaman terbaik untuk Anda</p>
+    </div>
+    <div class="team-grid">
+
+      <article class="team-card" id="team-chef-utama">
+        <div class="team-avatar" aria-label="Foto Chef Ahmad Fauzi">
+          <div class="avatar-circle chef">👨‍🍳</div>
+          <div class="team-social">
+            <a href="#" aria-label="Instagram Chef Ahmad"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="team-info">
+          <h3>Ahmad Fauzi</h3>
+          <span class="team-role">Head Chef & Co-Founder</span>
+          <p>20+ tahun pengalaman memasak seafood khas Sulawesi. Alumni Sekolah Tinggi Pariwisata Makassar dengan passion mendalam untuk kuliner laut.</p>
+          <div class="team-skills"><span>Bakar</span><span>Goreng</span><span>Sup</span></div>
+        </div>
+      </article>
+
+      <article class="team-card" id="team-manajer">
+        <div class="team-avatar" aria-label="Foto Manajer Siti Rahmah">
+          <div class="avatar-circle manager">👩‍💼</div>
+          <div class="team-social">
+            <a href="#" aria-label="Instagram Siti Rahmah"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="team-info">
+          <h3>Siti Rahmah</h3>
+          <span class="team-role">Restaurant Manager</span>
+          <p>Berpengalaman 10 tahun di industri F&B. Memastikan setiap tamu merasakan pengalaman makan terbaik dengan standar pelayanan bintang lima.</p>
+          <div class="team-skills"><span>Manajemen</span><span>Hospitality</span></div>
+        </div>
+      </article>
+
+      <article class="team-card" id="team-chef-pastry">
+        <div class="team-avatar" aria-label="Foto Chef Dessert Dewi Sari">
+          <div class="avatar-circle pastry">👩‍🍳</div>
+          <div class="team-social">
+            <a href="#" aria-label="Instagram Dewi Sari"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="team-info">
+          <h3>Dewi Sari</h3>
+          <span class="team-role">Sous Chef – Saus & Bumbu</span>
+          <p>Ahli dalam racikan bumbu dan saus khas. Resep saus Raja Laut yang legendaris adalah karyanya. Lulus dengan honours dari culinary school Jakarta.</p>
+          <div class="team-skills"><span>Bumbu</span><span>Saus</span><span>Marinade</span></div>
+        </div>
+      </article>
+
+      <article class="team-card" id="team-bartender">
+        <div class="team-avatar" aria-label="Foto Bartender Rizky">
+          <div class="avatar-circle barista">🧑‍🍹</div>
+          <div class="team-social">
+            <a href="#" aria-label="Instagram Rizky"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="team-info">
+          <h3>Rizky Pratama</h3>
+          <span class="team-role">Head Bartender</span>
+          <p>Kreator minuman segar ala Raja Laut. Menghadirkan perpaduan buah tropis lokal dengan teknik modern yang memukau setiap pengunjung.</p>
+          <div class="team-skills"><span>Mocktail</span><span>Jus</span><span>Es Krim</span></div>
+        </div>
+      </article>
+
+      <article class="team-card" id="team-waiter">
+        <div class="team-avatar" aria-label="Foto Senior Waiter Bagas">
+          <div class="avatar-circle waiter">🙋‍♂️</div>
+          <div class="team-social">
+            <a href="#" aria-label="Instagram Bagas"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="team-info">
+          <h3>Bagas Nugroho</h3>
+          <span class="team-role">Senior Waiter</span>
+          <p>Wajah ramah yang menyambut setiap tamu dengan senyum tulus. Hafal seluruh menu dan siap merekomendasikan hidangan terbaik sesuai selera Anda.</p>
+          <div class="team-skills"><span>Pelayanan</span><span>Edukasi Menu</span></div>
+        </div>
+      </article>
+
+      <article class="team-card" id="team-kasir">
+        <div class="team-avatar" aria-label="Foto Kasir Nadia">
+          <div class="avatar-circle kasir">👩‍💻</div>
+          <div class="team-social">
+            <a href="#" aria-label="Instagram Nadia"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="team-info">
+          <h3>Nadia Amaliah</h3>
+          <span class="team-role">Head Cashier & Admin</span>
+          <p>Memastikan proses pembayaran berjalan lancar dan administrasi restoran tertata rapi. Selalu ramah dan profesional dalam melayani setiap transaksi.</p>
+          <div class="team-skills"><span>Kasir</span><span>Admin</span><span>QRIS</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+  <div class="section-wave-bottom" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path fill="#081322" d="M0,40 C480,0 960,60 1440,20 L1440,60 L0,60Z"/></svg></div>
+</section>
+
+<!-- ========== GALERI ========== -->
+<section id="galeri" aria-labelledby="galeri-title">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label"><span>📸 Galeri</span></div>
+      <h2 id="galeri-title">Momen <em>Berharga</em> di Raja Laut</h2>
+    </div>
+    <div class="galeri-grid">
+      <div class="gal-item gal-wide" style="background: linear-gradient(135deg,#1a6b8a,#0d3b56)"><span class="gal-emoji">🦞</span><div class="gal-overlay"><span>Lobster Premium</span></div></div>
+      <div class="gal-item" style="background: linear-gradient(135deg,#8b2500,#c43d00)"><span class="gal-emoji">🦀</span><div class="gal-overlay"><span>Kepiting Segar</span></div></div>
+      <div class="gal-item" style="background: linear-gradient(135deg,#1e5c1e,#2d8a2d)"><span class="gal-emoji">🐟</span><div class="gal-overlay"><span>Ikan Bakar</span></div></div>
+      <div class="gal-item gal-tall" style="background: linear-gradient(135deg,#5a2d82,#8b3fd4)"><span class="gal-emoji">🦑</span><div class="gal-overlay"><span>Cumi Spesial</span></div></div>
+      <div class="gal-item" style="background: linear-gradient(135deg,#0a3d62,#1e6fa3)"><span class="gal-emoji">🍽️</span><div class="gal-overlay"><span>Paket Keluarga</span></div></div>
+      <div class="gal-item" style="background: linear-gradient(135deg,#7d4e00,#c17f00)"><span class="gal-emoji">🌊</span><div class="gal-overlay"><span>Suasana Restoran</span></div></div>
+      <div class="gal-item" style="background: linear-gradient(135deg,#1a4d2e,#27a55a)"><span class="gal-emoji">👨‍🍳</span><div class="gal-overlay"><span>Tim Dapur</span></div></div>
+      <div class="gal-item gal-wide" style="background: linear-gradient(135deg,#4a0000,#990000)"><span class="gal-emoji">🦐</span><div class="gal-overlay"><span>Udang Jumbo</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ULASAN ========== -->
+<section id="ulasan" aria-labelledby="ulasan-title">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label"><span>⭐ Ulasan Pelanggan</span></div>
+      <h2 id="ulasan-title">Apa Kata <em>Mereka</em></h2>
+    </div>
+    <div class="ulasan-grid">
+      <article class="ulasan-card">
+        <div class="ulasan-stars">★★★★★</div>
+        <p class="ulasan-text">"Seafood terenak yang pernah saya makan di Makassar! Kepiting saus Raja Laut benar-benar luar biasa. Pasti akan kembali lagi bersama keluarga."</p>
+        <div class="ulasan-author">
+          <div class="ulasan-avatar">A</div>
+          <div><strong>Andri Susanto</strong><small>Google Review • 2 minggu lalu</small></div>
+        </div>
+      </article>
+      <article class="ulasan-card featured-review">
+        <div class="ulasan-stars">★★★★★</div>
+        <p class="ulasan-text">"Tempatnya bersih, pelayanan ramah, dan yang paling penting makanannya SEGAR banget! Lobster bakar mentega di sini beda dari tempat lain. Recommended!"</p>
+        <div class="ulasan-author">
+          <div class="ulasan-avatar">R</div>
+          <div><strong>Rini Wahyuni</strong><small>TripAdvisor • 1 bulan lalu</small></div>
+        </div>
+      </article>
+      <article class="ulasan-card">
+        <div class="ulasan-stars">★★★★★</div>
+        <p class="ulasan-text">"Udara laut masih terasa di setiap suapan! Ikan bakar Makassar di sini autentik sekali. Porsi besar, harga wajar, dan lokasinya strategis."</p>
+        <div class="ulasan-author">
+          <div class="ulasan-avatar">B</div>
+          <div><strong>Bambang Hakim</strong><small>Instagram • 3 minggu lalu</small></div>
+        </div>
+      </article>
+      <article class="ulasan-card">
+        <div class="ulasan-stars">★★★★☆</div>
+        <p class="ulasan-text">"Cumi bakar isi telur dan sup ikan konronya top markotop! Tim dapur yang sangat berpengalaman. Parkir luas, cocok untuk acara ulang tahun keluarga."</p>
+        <div class="ulasan-author">
+          <div class="ulasan-avatar">D</div>
+          <div><strong>Dewi Purnamasari</strong><small>GoFood Review • 1 minggu lalu</small></div>
+        </div>
+      </article>
+    </div>
+    <div class="ulasan-rating-summary">
+      <div class="rating-big"><span>4.9</span><div class="rating-stars-big">★★★★★</div><small>dari 1.200+ ulasan</small></div>
+      <div class="rating-platforms">
+        <span><i class="fab fa-google"></i> 4.9</span>
+        <span><i class="fas fa-map-marked-alt"></i> 4.8</span>
+        <span><i class="fab fa-instagram"></i> 4.9</span>
+      </div>
+    </div>
+  </div>
+  <div class="section-wave-bottom" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path fill="#071120" d="M0,30 C480,60 960,0 1440,30 L1440,60 L0,60Z"/></svg></div>
+</section>
+
+<!-- ========== RESERVASI ========== -->
+<section id="reservasi" aria-labelledby="reservasi-title">
+  <div class="container">
+    <div class="reservasi-wrapper">
+      <div class="reservasi-info" data-aos="fade-right">
+        <div class="section-label"><span>📅 Reservasi</span></div>
+        <h2 id="reservasi-title">Pesan Meja <em>Sekarang</em></h2>
+        <p>Pastikan momen spesial Anda bersama keluarga dan kerabat terpenuhi. Reservasi mudah, cepat, dan terpercaya.</p>
+        <ul class="reservasi-perks">
+          <li><i class="fas fa-check"></i> Konfirmasi cepat via WhatsApp</li>
+          <li><i class="fas fa-check"></i> Tersedia ruang VIP untuk acara privat</li>
+          <li><i class="fas fa-check"></i> Live music setiap Jumat & Sabtu malam</li>
+          <li><i class="fas fa-check"></i> Dekorasi meja spesial untuk perayaan</li>
+        </ul>
+        <div class="jam-operasional">
+          <h4><i class="fas fa-clock"></i> Jam Operasional</h4>
+          <table>
+            <tr><td>Senin – Kamis</td><td>11:00 – 22:00 WITA</td></tr>
+            <tr><td>Jumat – Sabtu</td><td>11:00 – 23:00 WITA</td></tr>
+            <tr><td>Minggu</td><td>10:00 – 22:00 WITA</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="reservasi-form-wrap" data-aos="fade-left">
+        <form id="reservasiForm" class="reservasi-form" novalidate>
+          <h3><i class="fas fa-calendar-alt"></i> Form Reservasi</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="r-nama">Nama Lengkap *</label>
+              <input type="text" id="r-nama" name="nama" placeholder="Nama Anda" required autocomplete="name"/>
+            </div>
+            <div class="form-group">
+              <label for="r-hp">No. WhatsApp *</label>
+              <input type="tel" id="r-hp" name="hp" placeholder="08xxxx" required autocomplete="tel"/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="r-tgl">Tanggal *</label>
+              <input type="date" id="r-tgl" name="tanggal" required/>
+            </div>
+            <div class="form-group">
+              <label for="r-jam">Jam *</label>
+              <select id="r-jam" name="jam" required>
+                <option value="">Pilih Jam</option>
+                <option>11:00</option><option>12:00</option><option>13:00</option>
+                <option>14:00</option><option>15:00</option><option>17:00</option>
+                <option>18:00</option><option>19:00</option><option>20:00</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="r-tamu">Jumlah Tamu *</label>
+              <select id="r-tamu" name="tamu" required>
+                <option value="">Pilih</option>
+                <option>1-2 orang</option><option>3-5 orang</option>
+                <option>6-10 orang</option><option>11-20 orang</option>
+                <option>20+ orang (VIP)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="r-area">Area Duduk</label>
+              <select id="r-area" name="area">
+                <option value="">Semua Area</option>
+                <option>Indoor – AC</option>
+                <option>Outdoor – Taman</option>
+                <option>VIP Private Room</option>
+                <option>Smoking Area</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group full">
+            <label for="r-catatan">Catatan Spesial</label>
+            <textarea id="r-catatan" name="catatan" rows="3" placeholder="Dekorasi ulang tahun, pantang alergi, dll…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Kirim via WhatsApp
+          </button>
+        </form>
+        <div id="reservasiSuccess" class="reservasi-success" hidden>
+          <i class="fas fa-check-circle"></i>
+          <h4>Reservasi Terkirim!</h4>
+          <p>Kami akan menghubungi Anda melalui WhatsApp dalam 30 menit. Terima kasih!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== LOKASI & KONTAK ========== -->
+<section id="kontak" aria-labelledby="kontak-title">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label"><span>📍 Kontak & Lokasi</span></div>
+      <h2 id="kontak-title">Temukan <em>Kami</em></h2>
+    </div>
+    <div class="kontak-grid">
+      <div class="kontak-info">
+        <div class="kontak-item">
+          <div class="kontak-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <h4>Alamat</h4>
+            <p>Jl. Penghibur No. 12, Pantai Losari,<br>Makassar, Sulawesi Selatan 90111</p>
+          </div>
+        </div>
+        <div class="kontak-item">
+          <div class="kontak-icon"><i class="fas fa-phone-alt"></i></div>
+          <div>
+            <h4>Telepon / WhatsApp</h4>
+            <a href="tel:+6281234567890">+62 812-3456-7890</a>
+          </div>
+        </div>
+        <div class="kontak-item">
+          <div class="kontak-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:hello@rajalaut.id">hello@rajalaut.id</a>
+          </div>
+        </div>
+        <div class="kontak-item">
+          <div class="kontak-icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <h4>Jam Buka</h4>
+            <p>Senin – Minggu: 10:00 – 23:00 WITA</p>
+          </div>
+        </div>
+        <div class="kontak-sosmed">
+          <a href="#" class="sosmed-btn ig" aria-label="Instagram Raja Laut"><i class="fab fa-instagram"></i> @rajalaut.mks</a>
+          <a href="#" class="sosmed-btn fb" aria-label="Facebook Raja Laut"><i class="fab fa-facebook"></i> Raja Laut Makassar</a>
+          <a href="#" class="sosmed-btn wa" aria-label="WhatsApp Raja Laut"><i class="fab fa-whatsapp"></i> Chat WA</a>
+          <a href="#" class="sosmed-btn tt" aria-label="TikTok Raja Laut"><i class="fab fa-tiktok"></i> @rajalaut</a>
+        </div>
+      </div>
+      <div class="kontak-map">
+        <div class="map-placeholder" role="img" aria-label="Peta Lokasi Raja Laut">
+          <div class="map-inner">
+            <div class="map-pin"><i class="fas fa-map-marker-alt"></i></div>
+            <p><strong>Raja Laut Seafood Restaurant</strong></p>
+            <p>Jl. Penghibur No. 12, Pantai Losari</p>
+            <p>Makassar, Sulawesi Selatan</p>
+            <a href="https://maps.google.com/?q=Pantai+Losari+Makassar" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+              <i class="fas fa-directions"></i> Buka Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-wave-bottom" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path fill="#060e1a" d="M0,20 C600,60 900,0 1440,40 L1440,60 L0,60Z"/></svg></div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer id="footer">
+  <div class="footer-wave" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80" preserveAspectRatio="none"><path fill="#060e1a" d="M0,40 C360,80 1080,0 1440,40 L1440,0 L0,0Z"/></svg>
+  </div>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="Logo Raja Laut" />
+        <h3>Raja Laut</h3>
+        <p>Seafood Restaurant</p>
+        <p class="footer-desc">Menghadirkan cita rasa laut terbaik Sulawesi sejak 2012. Segar, lezat, dan penuh kenangan.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigasi Cepat</h4>
+        <ul>
+          <li><a href="#hero"><i class="fas fa-chevron-right"></i> Beranda</a></li>
+          <li><a href="#tentang"><i class="fas fa-chevron-right"></i> Tentang Kami</a></li>
+          <li><a href="#menu"><i class="fas fa-chevron-right"></i> Menu</a></li>
+          <li><a href="#promo"><i class="fas fa-chevron-right"></i> Promo</a></li>
+          <li><a href="#karyawan"><i class="fas fa-chevron-right"></i> Tim Kami</a></li>
+          <li><a href="#galeri"><i class="fas fa-chevron-right"></i> Galeri</a></li>
+          <li><a href="#ulasan"><i class="fas fa-chevron-right"></i> Ulasan</a></li>
+          <li><a href="#reservasi"><i class="fas fa-chevron-right"></i> Reservasi</a></li>
+          <li><a href="#kontak"><i class="fas fa-chevron-right"></i> Kontak</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu-links">
+        <h4>Menu Populer</h4>
+        <ul>
+          <li><a href="#menu-ikan-bakar"><i class="fas fa-chevron-right"></i> Ikan Bakar Makassar</a></li>
+          <li><a href="#menu-udang-bakar"><i class="fas fa-chevron-right"></i> Udang Bakar Madu</a></li>
+          <li><a href="#menu-kepiting-saus"><i class="fas fa-chevron-right"></i> Kepiting Saus Raja Laut</a></li>
+          <li><a href="#menu-lobster-bakar"><i class="fas fa-chevron-right"></i> Lobster Bakar Mentega</a></li>
+          <li><a href="#menu-cumi-bakar"><i class="fas fa-chevron-right"></i> Cumi Bakar Isi Telur</a></li>
+          <li><a href="#menu-es-kelapa"><i class="fas fa-chevron-right"></i> Es Kelapa Muda</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Hubungi Kami</h4>
+        <p><i class="fas fa-map-marker-alt"></i> Jl. Penghibur No. 12, Pantai Losari, Makassar</p>
+        <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+        <p><i class="fas fa-envelope"></i> hello@rajalaut.id</p>
+        <div class="footer-sosmed">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Raja Laut Seafood Restaurant. All Rights Reserved.</p>
+      <p>Dibuat dengan <span style="color:#e74c3c">❤</span> di Makassar, Sulawesi Selatan</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/6281234567890?text=Halo%20Raja%20Laut%2C%20saya%20ingin%20reservasi%20meja" class="wa-float" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+  <span>Chat Reservasi</span>
+</a>
+
+<!-- Back to Top -->
+<button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">
+  <i class="fas fa-anchor"></i>
+</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
